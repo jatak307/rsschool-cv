@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 14px;
+  line-height: 1.5;
+  color: #24292e;
+  background-color: #fff;
+}
+
+main {
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 15vh;
+  padding-bottom: 5vh;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 24px;
+  margin-bottom: 16px;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.objective,
+.skills,
+.qualifications,
+.work-examples {
+  padding-bottom: 0.3em;
+  font-size: 1.2em;
+  border-bottom: 1px solid #eaecef;
+}
+
+header {
+  position: fixed;
+  display: flex;
+  height: 15vh;
+  width: 100%;
+  padding: 0 10vw;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  background-color: #24292e;
+}
+
+.header-menu {
+  list-style-type: none;
+}
+
+.img {
+  width: auto;
+  height: 100%;
+}
+
+.img img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.sublist {
+  list-style-position: inside;
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.ex-list {
+  text-transform: uppercase;
+}
+
+.ex-list li {
+  position: relative;
+}
+
+.ex-list a {
+  text-decoration: none;
+  color: rgb(48, 42, 42);
+}
+
+.ex-list a:hover {
+  position: relative;
+  color: firebrick;
+  padding-left: 15px;
+}
+
+.bold-text {
+  font-size: 1.1em;
+  text-decoration: underline;
+  line-height: 1.7em;
+}
+
+.footer {
+  opacity: 0.85;
+  display: flex;
+  height: 8vh;
+  width: 100%;
+  padding: 0 10vw;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  background-color: #24292e;
+}
+
+.footer nav {
+  width: 100%;
+}
+
+.info {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.info a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.info a:hover {
+  color: rgb(231, 208, 78);
+}
