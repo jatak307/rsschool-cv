@@ -20,7 +20,7 @@ body {
 main {
   width: 70%;
   margin: 0 auto;
-  padding-top: 15vh;
+  padding-top: 100px;
   padding-bottom: 5vh;
 }
 
@@ -49,7 +49,7 @@ h1 {
 header {
   position: fixed;
   display: flex;
-  height: 12vh;
+  height: 80px;
   width: 100%;
   padding: 0 10vw;
   align-items: center;
@@ -65,7 +65,7 @@ header {
 
 .img {
   position: absolute;
-  top: 1vh;
+  top: 5px;
   left: 50%;
   transform: translateX(-50%);
   width: auto;
@@ -73,8 +73,8 @@ header {
 }
 
 .img img {
-  height: 10vh;
-  width: 10vh;
+  height: 70px;
+  width: 70px;
   max-width: 100%;
   border-radius: 50%;
   object-fit: cover;
@@ -208,7 +208,7 @@ header {
 .footer {
   opacity: 0.85;
   display: flex;
-  height: 8vh;
+  height: 60px;
   width: 100%;
   padding: 0 10vw;
   align-items: center;
@@ -240,6 +240,44 @@ header {
   color: rgb(231, 208, 78);
 }
 
+@media (max-width: 1000px) {
+  h1 {
+    width: 200px;
+    line-height: 25px;
+    font-size: 25px;
+  }
+  .header-menu li:nth-child(2){
+    display: none;
+  }
+}
+
+@media (max-width: 568px) {  
+  .img {
+    position: absolute;
+    top: 90px;
+    left: 85%;
+  }
+  
+  .img img {
+    border: 2px solid rgb(70, 124, 142);
+    box-shadow: none;
+    background: rgb(70, 124, 142);
+  }
+
+  .qualifications-list {
+    flex-direction: column;
+  }
+
+  .qualification {
+    width: 100%;
+  }
+  
+  .qualification:last-child {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
+
 @media print {
   .hidden-print { 
     display: none ;
@@ -253,6 +291,10 @@ header {
 
   @page { 
     margin: 1cm
+  }
+
+  main {
+    margin-top: 40px;
   }
   
   header {
